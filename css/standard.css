@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*
+ * Copyright 2012, 2016 Carson Cheng
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
+/* =============================================================================
+   Page Header
+   ========================================================================== */
+
+.page_logo {
+    width: 40%;
+    float: left;
+    border: black 1pt solid;
+    /* just to show you the display box */
+}
+
+.page_title_graphic {
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    border: black 1pt solid;
+    /* just to show you the display box */
+}
+
+
+/* =============================================================================
+   Navigation
+   ========================================================================== */
+
+.nav_bar {
+    float: left;
+    width: 100%;
+    border: black 1pt solid;
+    /* just to show you the display box */
+}
+
+.nav_bar_links li {
+    display: inline;
+    list-style: none;
+    width: 18%;
+    border: black 1pt solid;
+    /* just to show you the display box */
+}
+
+/* dropdown menu */
+.nav_bar_links li ul {
+    position: absolute;
+    left: -9999px;
+}
+
+.nav_bar_links li ul li {
+    background-color: black;
+    color: white;
+}
+
+.nav_bar_links li:hover ul {
+    left: 0px;
+}
+
+.nav_bar_links li ul li:hover {
+    background-color: red;
+}
+
+
+/* =============================================================================
+   Column Layout
+   ========================================================================== */
+
+.column {
+    width: 45%;
+    float: left;
+    border: black 1pt solid;
+    /* just to show you the display box */
+    background-color: gray;
+}
+
+.rounded_corners {
+    -moz-border-radius: 10px;
+    /* Firefox */
+    -webkit-border-radius: 10px;
+    /* Safari and chrome */
+    -khtml-border-radius: 10px;
+    /* Linux browsers */
+    border-radius: 10px;
+    /* CSS3 */
+}
