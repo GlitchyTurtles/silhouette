@@ -44,6 +44,14 @@ import * as Fn from "./libs/lib-gqguardrail-exports.ts";
 // ***********************************
 import { PlayerSpriteDict, RespawnDict, LeaderboardDict } from "./utils.ts";
 
+let sample = {
+    "test": 1
+}
+
+Fn.saveDictionaryAs("test", sample);
+Fn.consolePrint(Fn.getSavedDictionary("test"));
+
+
 // Global vars
 declare var $: any;
 var levelNumber: number = 2;
