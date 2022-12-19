@@ -35,3 +35,22 @@ export type RespawnDict = {
 export type LeaderboardDict = {
     [s: string]: any;
 }
+
+export type LevelData = {
+    x: number;
+    y: number;
+    size: string;
+}[];
+
+export type BlockDict = {
+    "id": string;
+    "width": number;
+    "height": number;
+    "xPos": number;
+    "yPos": number;
+    "xSpeed": number;
+    "ySpeed": number;
+    "minXPos": number;
+    "maxXPos": number;
+    [s: string]: any;
+}
